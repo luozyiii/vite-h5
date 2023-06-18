@@ -1,4 +1,4 @@
-import { Button, Color } from 'rc-component';
+import { Button, Color } from '@leslies/rc-component';
 export default function Home() {
   return (
     <div>
