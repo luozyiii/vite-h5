@@ -5,5 +5,5 @@
 ```bash
 npm cache clean --force
 
-npm install @leslies/rc-component@0.0.1 --registry http://localhost:4873
+npm install @leslies/rc-component@0.0.1 --registry http://81.71.98.176:4873:4873
 ```
