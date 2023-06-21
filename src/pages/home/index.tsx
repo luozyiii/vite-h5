@@ -1,10 +1,12 @@
 import { Space, Button, Color } from '@leslies/rc-component';
 import './styles.scss';
+import styles from './styles.module.scss';
+
 export default function Home() {
   return (
     <Space direction="vertical">
-      <h1>Home</h1>
-      <Button type="primary" block>
+      <h1 className="custom-css">Home</h1>
+      <Button type="primary" block className={styles.customCss}>
         primary
       </Button>
       <Color
